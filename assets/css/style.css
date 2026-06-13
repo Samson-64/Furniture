@@ -11,7 +11,7 @@ body {
 
 #home {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1725px;
     margin: 0 90px;
     padding: 20px;
 }
@@ -20,19 +20,21 @@ body {
 /* navBar */
 nav {
     display: flex;
+    /* width: 100%; */
+    height: 61px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    /* padding: 20px; */
 }
 
 nav .navLinks {
     display: flex;
-    gap: 20px;
+    gap: 35px;
 }
 
 nav .navLinks a {
     text-decoration: none;
-    color: #333;
+    color: #0e0e0e;
     font-weight: 500;
     transition: color 0.3s ease;
 }
@@ -58,3 +60,65 @@ nav .leftLinks a:hover {
 }
 
 /* hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: #b2fafa;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.hero .heroContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 132px;
+}
+
+.hero hr {
+    width: 1px;
+    height: 130px;
+    background-color: #5c5c5c;
+    border: none;
+    /* margin-bottom: 20px; */
+}
+
+.hero .heroCta {
+    margin-bottom: 20px;
+    margin-left: 32px;
+}
+
+.hero .heroCta p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.hero .heroCta h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero .heroCta button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #333;
+    background: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* .hero .heroCta button:hover {
+    background-color: #333;
+    color: #fff;
+} */
+
+.hero .heroImg img {
+    width: 900px;
+    height: auto;
+}
