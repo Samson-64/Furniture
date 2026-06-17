@@ -385,6 +385,7 @@ nav .leftLinks a {
 
 .footer .footerCont {
     display: flex;
+    margin-top: 50px;
     /* justify-content: space-between; */
 }
 
