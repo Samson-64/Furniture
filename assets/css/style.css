@@ -126,7 +126,7 @@ nav .leftLinks a:hover {
 
 /* shop */
 #shop {
-    margin-top: 60px;
+    margin-top: 90px;
     margin-left: 316px;
     margin-right: 316px;
     display: flex;
@@ -271,6 +271,7 @@ nav .leftLinks a:hover {
     font-size: 15px;
 }
 
+/* brandsection */
 .brand {
     width: 70%;
     margin-top: 90px;
@@ -340,3 +341,37 @@ nav .leftLinks a:hover {
 }
 
 /* blog */
+.blog {
+    margin-top: 90px;
+}
+
+.blogHead {
+    margin-left: 45%;
+    font-size: 25px;
+}
+
+.blog .blogCard {
+    display: flex;
+    gap: 115px;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.blogCard .card {
+    width: 20%;
+}
+
+.blogCard .card p {
+    position: relative;
+    top: 0;
+    left: 50px;
+}
+
+.blogCard .card .badge {
+    background-color: rgb(187, 64, 64);
+    width: 9px;
+    height: 50px;
+    position: absolute;
+    top: 216rem;
+    margin-left: 30px;
+}
