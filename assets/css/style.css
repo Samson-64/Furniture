@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f5f5f5;
+    /* background: #f5f5f5; */
 }
 
 #home {
@@ -239,11 +239,11 @@ nav .leftLinks a {
 
 .product .productHead p {
     font-size: 18px;
-    margin-left: 19%;
+    margin-left: 18%;
 }
 
 .product .productHead .productLink {
-    margin-right: 12%;
+    margin-right: 13%;
     display: flex;
     gap: 60px;
 }
@@ -257,8 +257,8 @@ nav .leftLinks a {
 .product .productCards {
     display: flex;
     /* background-color: #c76767; */
-    gap: 60px;
-    margin-top: 10px;
+    gap: 30px;
+    margin-top: 25px;
     margin-left: 18%;
     /* flex-direction: row; */
 }
@@ -295,7 +295,7 @@ nav .leftLinks a {
 }
 
 .discount .discinner {
-    background-color: #f0f0f0;
+    background-color: #fbfbfb;
     width: 100%;
 }
 
@@ -338,10 +338,10 @@ nav .leftLinks a {
     bottom: 19px;
     background: none;
     padding: 20px;
-    border: 1px solid salmon;
+    border: 1px solid red;
     border-radius: 50px;
     font-size: 18px;
-    color: salmon;
+    color: red;
     cursor: pointer;
 }
 
@@ -373,7 +373,7 @@ nav .leftLinks a {
 }
 
 .blogCard .card .badge {
-    background-color: rgb(187, 64, 64);
+    background-color: red;
     width: 9px;
     height: 50px;
     position: absolute;
@@ -385,7 +385,7 @@ nav .leftLinks a {
 .footer {
     margin-top: 60px;
     padding: 50px;
-    background-color: #e8e8e8;
+    background-color: #fbfbfb;
 }
 
 .footer .footerCont {
@@ -436,6 +436,7 @@ nav .leftLinks a {
 .footer .copyright {
     text-align: center;
     margin-top: 50px;
+    font-family: sans-serif;
 }
 
 hr {
