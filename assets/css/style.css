@@ -29,7 +29,7 @@ nav {
 
 nav .navLinks {
     display: flex;
-    gap: 35px;
+    gap: 65px;
 }
 
 nav .navLinks a {
@@ -127,7 +127,7 @@ nav .leftLinks a {
 /* shop */
 #shop {
     margin-top: 90px;
-    margin-left: 316px;
+    margin-left: 290px;
     margin-right: 316px;
     display: flex;
     gap: 133px;
@@ -160,10 +160,6 @@ nav .leftLinks a {
     position: relative;
     top: 15px;
 }
-
-/* .carnival .carnivalCont {
-
-} */
 
 .read {
     height: 310px;
@@ -315,22 +311,31 @@ nav .leftLinks a {
 }
 
 .discinner .discountContent {
-    width: 390px;
-    margin-top: 10%;
+    width: 470px;
+    margin-top: 6%;
 }
 
-.discinner .discountContent h1 {
-    font-size: 40x;
+.discinner .discountContent .salesTitle {
+    font-size: 90px;
+    opacity: 0.1;
+    /* letter-spacing: 3px; */
+}
+
+.discinner .discountContent .discountTitle {
+    font-size: 45px;
+    font-family: sans-serif;
+    position: relative;
+    top: -60px;
 }
 
 .discinner .discountContent p {
     position: relative;
-    top: 15px;
+    bottom: 40px;
 }
 
 .discinner .discountContent button {
     position: relative;
-    top: 50px;
+    bottom: 19px;
     background: none;
     padding: 20px;
     border: 1px solid salmon;
