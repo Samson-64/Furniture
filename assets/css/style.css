@@ -65,7 +65,7 @@ nav .leftLinks a:hover {
     align-items: center;
     justify-content: space-between;
     padding: 50px 0;
-    background-color: #b2fafa;
+    background-color: #c5e9e9;
     padding: 50px;
     border-radius: 10px;
 }
@@ -122,3 +122,148 @@ nav .leftLinks a:hover {
     width: 900px;
     height: auto;
 }
+
+#shop {
+    margin-top: 60px;
+    margin-left: 316px;
+    margin-right: 316px;
+    display: flex;
+    gap: 133px;
+    flex-direction: row;
+}
+
+.carnival {
+    width: 485px;
+    height: 611px;
+    padding: 50px;
+    /* background-color: #b2fafa; */
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url('../images/banner-01.jpg');
+}
+
+.carnival h1 {
+    margin-top: 35px;
+    font-size: 27px;
+}
+
+.carnival p {
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+
+.carnival a {
+    color: #0e0e0e;
+    position: relative;
+    top: 15px;
+}
+
+/* .carnival .carnivalCont {
+
+} */
+
+.read {
+    height: 310px;
+    width: 558px;
+    padding: 50px;
+    /* margin-left: 50%; */
+    background-image: url('../images/banner-02.jpg');
+}
+
+.read .readCont {
+    width: 50%;
+    margin-left: 50%;
+    /* padding: 15%; */
+    /* background-color: #fff; */
+}
+
+.readCont h1 {
+    margin-top: 35px;
+    font-size: 27px;
+}
+
+.readCont p {
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+
+.readCont a {
+    color: #0e0e0e;
+    position: relative;
+    top: 15px;
+}
+
+.easy {
+    height: 310px;
+    width: 558px;
+    margin-top: 20px;
+    background-image: url('../images/banner-03.jpg');
+}
+
+.easyCont {
+    width: 50%;
+    height: auto;
+    position: relative;
+    top: 25%;
+    left: 15%;
+    /* background-color: #fff; */
+}
+
+.easyCont h1 {
+    margin-top: 35px;
+    font-size: 27px;
+}
+
+.easyCont p {
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+
+.easyCont a {
+    color: #0e0e0e;
+    position: relative;
+    top: 15px;
+}
+
+.product {
+    margin-top: 90px;
+}
+
+.product .productHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .productHead p {
+    font-size: 18px;
+    margin-left: 19%;
+}
+
+.product .productHead .productLink {
+    margin-right: 12%;
+    display: flex;
+    gap: 60px;
+}
+
+.productLink a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #0e0e0e;
+}
+
+.product .productCards {
+    display: flex;
+    /* background-color: #c76767; */
+    gap: 60px;
+    margin-top: 10px;
+    margin-left: 18%;
+    /* flex-direction: row; */
+}
+
+.productCards h2 {
+    font-size: 15px;
+}
+
