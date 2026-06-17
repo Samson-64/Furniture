@@ -378,6 +378,7 @@ nav .leftLinks a {
 
 /* footer */
 .footer {
+    margin-top: 60px;
     padding: 50px;
     background-color: #e8e8e8;
 }
