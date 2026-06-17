@@ -39,10 +39,6 @@ nav .navLinks a {
     transition: color 0.3s ease;
 }
 
-/* nav .navLinks a:hover {
-    color: #007BFF;
-} */
-
 nav .leftLinks {
     display: flex;
     gap: 20px;
@@ -54,10 +50,6 @@ nav .leftLinks a {
     font-weight: 500;
     transition: color 0.3s ease;
 }
-
-/* nav .leftLinks a:hover {
-    color: #007BFF;
-} */
 
 /* hero */
 .hero {
@@ -97,14 +89,15 @@ nav .leftLinks a {
 }
 
 .hero .heroCta h1 {
-    font-size: 48px;
+    font-size: 55px;
+    font-family: sans-serif;
     color: #333;
     margin-bottom: 20px;
 }
 
 .hero .heroCta button {
-    padding: 15px 30px;
-    font-size: 16px;
+    padding: 25px 35px;
+    font-size: 18px;
     color: #333;
     background: none;
     border: 1px solid #333;
@@ -112,11 +105,6 @@ nav .leftLinks a {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
-/* .hero .heroCta button:hover {
-    background-color: #333;
-    color: #fff;
-} */
 
 .hero .heroImg img {
     width: 900px;
@@ -172,8 +160,6 @@ nav .leftLinks a {
 .read .readCont {
     width: 50%;
     margin-left: 50%;
-    /* padding: 15%; */
-    /* background-color: #fff; */
 }
 
 .readCont h1 {
@@ -206,7 +192,6 @@ nav .leftLinks a {
     position: relative;
     top: 25%;
     left: 15%;
-    /* background-color: #fff; */
 }
 
 .easyCont h1 {
@@ -256,11 +241,9 @@ nav .leftLinks a {
 
 .product .productCards {
     display: flex;
-    /* background-color: #c76767; */
     gap: 30px;
     margin-top: 25px;
     margin-left: 18%;
-    /* flex-direction: row; */
 }
 
 .productCards h2 {
@@ -391,7 +374,6 @@ nav .leftLinks a {
 .footer .footerCont {
     display: flex;
     margin-top: 50px;
-    /* justify-content: space-between; */
 }
 
 .footer .footerCont p {
@@ -414,7 +396,6 @@ nav .leftLinks a {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* position: relative; */
     margin-top: 25px;
 }
 
