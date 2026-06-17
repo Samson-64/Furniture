@@ -123,6 +123,8 @@ nav .leftLinks a:hover {
     height: auto;
 }
 
+
+/* shop */
 #shop {
     margin-top: 60px;
     margin-left: 316px;
@@ -228,6 +230,8 @@ nav .leftLinks a:hover {
     top: 15px;
 }
 
+
+/* product */
 .product {
     margin-top: 90px;
 }
@@ -281,6 +285,8 @@ nav .leftLinks a:hover {
     margin-left: 2.5%;
 }
 
+
+/* discount */
 .discount {
     margin-top: 90px;
     display: flex;
@@ -332,3 +338,5 @@ nav .leftLinks a:hover {
     color: salmon;
     cursor: pointer;
 }
+
+/* blog */
