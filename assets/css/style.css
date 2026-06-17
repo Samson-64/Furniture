@@ -39,9 +39,9 @@ nav .navLinks a {
     transition: color 0.3s ease;
 }
 
-nav .navLinks a:hover {
+/* nav .navLinks a:hover {
     color: #007BFF;
-}
+} */
 
 nav .leftLinks {
     display: flex;
@@ -55,9 +55,9 @@ nav .leftLinks a {
     transition: color 0.3s ease;
 }
 
-nav .leftLinks a:hover {
+/* nav .leftLinks a:hover {
     color: #007BFF;
-}
+} */
 
 /* hero */
 .hero {
@@ -374,4 +374,64 @@ nav .leftLinks a:hover {
     position: absolute;
     top: 216rem;
     margin-left: 30px;
+}
+
+/* footer */
+.footer {
+    padding: 50px;
+    background-color: #e8e8e8;
+}
+
+.footer .footerCont {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.footer .footerCont p {
+    position: relative;
+    top: 10px;
+}
+
+.footerLogo {
+    width: 20%;
+    margin-left: 10%;
+}
+
+.footerLinks {
+    display: flex;
+    gap: 150px;
+    margin-left: 10%;
+}
+
+.footerLinks .links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* position: relative; */
+    margin-top: 25px;
+}
+
+.footerLinks .links a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .navLinks span {
+    font-size: 20px;
+}
+
+.footer .tag {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.footer .copyright {
+    text-align: center;
+    margin-top: 50px;
+}
+
+hr {
+    background: none;
+    border: 0.5px solid rgb(200, 200, 200);
 }
