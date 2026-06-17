@@ -67,7 +67,7 @@ nav .leftLinks a:hover {
     padding: 50px 0;
     background-color: #c5e9e9;
     padding: 50px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .hero .heroContent {
@@ -269,11 +269,11 @@ nav .leftLinks a:hover {
 
 .brand {
     width: 70%;
+    margin-top: 90px;
     margin-left: 18%;
     display: flex;
     gap: 60px;
     padding: 55px;
-    margin-top: 90px;
     background-color: #c5e9e9;
 }
 
@@ -281,3 +281,54 @@ nav .leftLinks a:hover {
     margin-left: 2.5%;
 }
 
+.discount {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: #e5e5e5;
+    padding: 50px;
+}
+
+.discount .discinner {
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+.discount .discinner .discMain {
+    display: flex;
+    gap: 100px;
+    margin-left: 10%;
+}
+
+.discinner img {
+    position: relative;
+    bottom: 30px;
+}
+
+.discinner .discountContent {
+    width: 390px;
+    margin-top: 10%;
+}
+
+.discinner .discountContent h1 {
+    font-size: 40x;
+}
+
+.discinner .discountContent p {
+    position: relative;
+    top: 15px;
+}
+
+.discinner .discountContent button {
+    position: relative;
+    top: 50px;
+    background: none;
+    padding: 20px;
+    border: 1px solid salmon;
+    border-radius: 50px;
+    font-size: 18px;
+    color: salmon;
+    cursor: pointer;
+}
